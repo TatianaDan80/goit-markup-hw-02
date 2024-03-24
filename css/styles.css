@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -55,7 +54,7 @@ ol {
 
 .adress-link:hover,
 .adress-link:focus {
-  color: #404ffb;
+  color: #404bbf;
 }
 
 /*-----hero------*/
@@ -64,10 +63,12 @@ ol {
 }
 
 .hero-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 
@@ -76,22 +77,28 @@ button {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
   background: #4d5ae5;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
-#hidden-heading {
-  display: none;
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 /*----features--------*/
 .features {
@@ -123,10 +130,12 @@ button {
 }
 
 .portfolio-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -134,12 +143,9 @@ button {
 }
 
 .portfolio-img-list {
-  border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 .test-image {
@@ -164,6 +170,7 @@ button {
 }
 
 .funkcional-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
