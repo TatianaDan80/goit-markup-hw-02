@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  width: 1440px;
+  height: 3300px;
 }
 
 a {
@@ -38,7 +40,7 @@ ol {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404ffb;
+  color: #404bbf;
 }
 
 .address {
@@ -130,6 +132,7 @@ button {
 }
 
 .portfolio-title {
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -170,6 +173,7 @@ button {
 }
 
 .funkcional-title {
+  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -220,7 +224,7 @@ button {
   color: #4d5ae5;
 }
 
-.logo-part {
+.logo-ft {
   color: #f4f4fd;
 }
 
