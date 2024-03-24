@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  width: 1440px;
-  height: 3300px;
 }
 
 a {
@@ -96,12 +94,10 @@ button {
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  height: 1px;
   overflow: hidden;
-  position: absolute;
   white-space: nowrap;
-  width: 1px;
 }
+
 /*----features--------*/
 .features {
   background-color: #fff;
