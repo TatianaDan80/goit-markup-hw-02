@@ -58,6 +58,7 @@ ol {
 }
 
 /*-----hero------*/
+
 .hero {
   background-color: #2e2f42;
 }
@@ -68,7 +69,7 @@ ol {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  text-align: center;
+  text: center;
   color: #fff;
 }
 
@@ -134,7 +135,7 @@ button {
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
+  text: center;
   color: #2e2f42;
 }
 
@@ -177,7 +178,7 @@ button {
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
+  text: center;
   color: #2e2f42;
 }
 
