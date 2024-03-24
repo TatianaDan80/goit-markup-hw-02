@@ -142,13 +142,13 @@ button {
 }
 
 .portfolio-img-list {
-  padding: 0px 0px 32px 0px;
   width: 264px;
   height: 380px;
   background: #fff;
 }
 .test-image {
 }
+
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -156,6 +156,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-name-text {
   font-weight: 400;
   font-size: 16px;
@@ -163,6 +164,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /*-----funktional--------*/
 
 .funkcional {
@@ -210,6 +212,7 @@ button {
 .footer-f {
   background: #2e2f42;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
